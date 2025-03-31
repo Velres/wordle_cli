@@ -2,7 +2,7 @@ import os
 import logging
 import sys
 
-def setup_logger(dev_mode=True, console_output=True, file_output=False, disable_logging=False):
+def setup_logger(dev_mode=True, console_output=False, file_output=True, disable_logging=False):
     """
     Set up and configure the logger for the application.
     
