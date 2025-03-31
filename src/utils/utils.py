@@ -10,9 +10,9 @@ def word_list_file_path(filename='en.txt'):
     folder_path='data/word_list'
     # relativ path 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    src_dir = os.path.dirname(script_dir)
+    root_dir = os.path.dirname(os.path.dirname(script_dir))
     # join the path
-    join_path = os.path.join(src_dir, folder_path)
+    join_path = os.path.join(root_dir, folder_path)
     file_path = os.path.abspath(os.path.join(join_path, filename))
     
     logger.debug(f"Looking for word list at: {file_path}")
