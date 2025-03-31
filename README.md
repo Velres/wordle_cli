@@ -1,4 +1,4 @@
-# Wordle CLI
+# Wordle CLI (WIP)
 
 A command-line implementation of the popular word-guessing game "Wordle". With some settings and feature, including en, de, ...
 
