@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python -m src
 
 # Run in developer mode (log)
-python -m src.main --dev
+python -m src --dev
 ```
 
 ## Features
